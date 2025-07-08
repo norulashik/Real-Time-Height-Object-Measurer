@@ -1,2 +1,17 @@
 # Real-Time-Height-Object-Measurer
-A real-time height, weight, and object dimension estimator. This application captures a live video feed from the webcam (or DroidCam), detects the human silhouette and pose landmarks to estimate height and weight, and also detects surrounding objects with bounding boxes, calculating their height, width, and approximate volume.
+
+A real-time PyQt5 application to estimate **human height**, **weight**, and **object dimensions** from a webcam feed using **MediaPipe** and **Faster R-CNN**.
+
+---
+
+## Features
+
+-  Human height & weight estimation using pose landmarks  
+-  Object detection with width, height, and volume calculation  
+-  Live webcam input (DroidCam supported)  
+-  Calibration wizard for accurate results  
+-  Smooth curved silhouette overlay for enhanced visuals  
+-  AI-powered estimation (MediaPipe + PyTorch Faster R-CNN)
+
+---
+
